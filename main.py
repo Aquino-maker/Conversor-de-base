@@ -27,7 +27,9 @@ frame_cima.grid(row=1, column=0)
 frame_baixo = Frame(janela, width=400, height=300, bg=co1, pady=12, padx=20)
 frame_baixo.grid(row=2, column=0, sticky=NW)
 
-
+# Trabalhando no frame_cima
+app_nome = Label(frame_cima, text='Conversor de base númerica', relief=FLAT, anchor='center', font=('System 20'), bg=co2, fg=co1)
+app_nome.place(x=10, y=15)
 
 
 
