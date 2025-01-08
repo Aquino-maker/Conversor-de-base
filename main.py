@@ -44,5 +44,28 @@ entrada_valor.place(x=160, y=10)
 bttn_converter = Button(frame_baixo, text='CONVERTER', relief=RAISED, overrelief=RIDGE , font=('Ivy 8 bold'), bg=co1, fg=co4)
 bttn_converter.place(x=247, y=10)
 
+label_binario = Label(frame_baixo, text='BINÁRIO', width=12, relief=FLAT, anchor='nw', font=('Verdana 13 bold'), bg=co5, fg=co4)
+label_binario.place(x=35, y=60)
+label_binario = Label(frame_baixo, text='', width=13, relief=FLAT, anchor='center', font=('Verdana 13 bold'), fg=co4)
+label_binario.place(x=170, y=60)
+
+label_octal = Label(frame_baixo, text='OCTAL', width=12, relief=FLAT, anchor='nw', font=('Verdana 13 bold'), bg=co5, fg=co4)
+label_octal.place(x=35, y=100)
+label_octal = Label(frame_baixo, text='', width=13, relief=FLAT, anchor='center', font=('Verdana 13 bold'), fg=co4)
+label_octal.place(x=170, y=100)
+
+label_hexa = Label(frame_baixo, text='HEXADECIMAL', width=13, relief=FLAT, anchor='nw', font=('Verdana 11 bold'), bg=co5, fg=co4)
+label_hexa.place(x=35, y=140)
+label_hexa = Label(frame_baixo, text='', width=13, relief=FLAT, anchor='center', font=('Verdana 13 bold'), fg=co4)
+label_hexa.place(x=170, y=140)
+
+label_decimal = Label(frame_baixo, text='DECIMAL', width=12, relief=FLAT, anchor='nw', font=('Verdana 13 bold'), bg=co5, fg=co4)
+label_decimal.place(x=35, y=180)
+label_decimal = Label(frame_baixo, text='', width=13, relief=FLAT, anchor='center', font=('Verdana 13 bold'), fg=co4)
+label_decimal.place(x=170, y=180)
+
+
+
+
 
 janela.mainloop()
